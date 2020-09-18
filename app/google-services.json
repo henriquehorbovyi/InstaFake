@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137066064293",
+    "firebase_url": "https://instafake-f8ebe.firebaseio.com",
+    "project_id": "instafake-f8ebe",
+    "storage_bucket": "instafake-f8ebe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137066064293:android:78c393130a4a5efd80604c",
+        "android_client_info": {
+          "package_name": "io.henrikhorbovyi.instafake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137066064293-3en9c2csubjnm3quqbls7v2bnjlpt8v4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARrIL2xUYj1nbT97mcjTXKVjFHisBKr2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137066064293-3en9c2csubjnm3quqbls7v2bnjlpt8v4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
