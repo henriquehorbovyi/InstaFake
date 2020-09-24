@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">InstaFake</string>
+    <string name="instafake">Instafake</string>
+    <string name="hint_username_login">Telefone, nome de usuário ou email</string>
+    <string name="hint_pass_login">Senha</string>
+    <string name="forgot_pass">Esqueceu a senha?</string>
+    <string name="enter_login">Entrar</string>
+    <string name="facebook_login">Log in com Facebook</string>
 </resources>

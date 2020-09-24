@@ -35,7 +35,7 @@
             android:id="@+id/signInInputUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Telefone, nome de usuário ou email"/>
+            android:hint="@string/hint_username_login"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="Senha"/>
+            android:hint="@string/hint_pass_login"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="Esqueceu a senha?"
+        android:text="@string/forgot_pass"
         android:textAllCaps="false"
         android:textColor="@color/colorFacebookBlue"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
         android:layout_height="58dp"
         android:layout_margin="16dp"
         android:backgroundTint="@drawable/sign_in_enter_button"
-        android:text="Entrar"
+        android:text="@string/enter_login"
         android:enabled="false"
         android:textAllCaps="false"
         android:textColor="@color/colorPrimary"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="32dp"
         android:drawableLeft="@drawable/ic_facebook"
-        android:text="Log in com Facebook"
+        android:text="@string/facebook_login"
         android:textAllCaps="false"
         android:textColor="@color/colorFacebookBlue"
         app:layout_constraintEnd_toEndOf="parent"

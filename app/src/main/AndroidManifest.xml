@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FeedActivity">
+        <activity android:name=".ui.FeedActivity">
             <!-- TODO: VOLTAR LAUNCHER AQUI-->
         </activity>
     </application>

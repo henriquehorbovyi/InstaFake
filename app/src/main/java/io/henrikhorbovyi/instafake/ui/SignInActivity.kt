@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doOnTextChanged
 import com.google.firebase.auth.FirebaseAuth
-import io.henrikhorbovyi.instafake.FeedActivity
 import io.henrikhorbovyi.instafake.databinding.ActivitySignInBinding
 import io.henrikhorbovyi.instafake.util.hideKeyBoard
 import io.henrikhorbovyi.instafake.util.launchActivity
