@@ -3,6 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
@@ -21,6 +24,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemStoryUserPicture"
+        android:textSize="15sp"
         tools:text="jorgin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
