@@ -37,11 +37,11 @@ class StoriesAdapter : ListAdapter<Story, StoriesAdapter.StoriesViewHolder>(Stor
 
     object StoriesDiff : DiffUtil.ItemCallback<Story>(){
         override fun areItemsTheSame(oldItem: Story, newItem: Story): Boolean {
-            return oldItem == newItem
+            return oldItem.userName == newItem.userName
         }
 
         override fun areContentsTheSame(oldItem: Story, newItem: Story): Boolean {
-            return oldItem.userName == newItem.userName
+            return oldItem == newItem
         }
 
     }
