@@ -2,12 +2,11 @@ package io.henrikhorbovyi.instafake.ui.custom.stories
 
 import android.content.Context
 import android.util.AttributeSet
-import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import io.henrikhorbovyi.instafake.R
-import kotlinx.android.synthetic.main.custom_view_stories.view.*
+import io.henrikhorbovyi.instafake.entity.Story
 
 class StoriesView @JvmOverloads constructor(
     context: Context,

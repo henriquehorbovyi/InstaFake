@@ -6,4 +6,5 @@
     <string name="forgot_pass">Esqueceu a senha?</string>
     <string name="enter_login">Entrar</string>
     <string name="facebook_login">Log in com Facebook</string>
+    <string name="liked_by">Curtido por <b>%s</b> e <b>outras pessoas</b></string>
 </resources>

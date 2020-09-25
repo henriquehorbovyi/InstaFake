@@ -1,4 +1,4 @@
-package io.henrikhorbovyi.instafake.ui.custom.stories
+package io.henrikhorbovyi.instafake.entity
 
 data class Story(
     //val image: String,

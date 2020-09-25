@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import io.henrikhorbovyi.instafake.R
+import io.henrikhorbovyi.instafake.entity.Story
 
 class StoriesAdapter : ListAdapter<Story, StoriesAdapter.StoriesViewHolder>(StoriesDiff){
 

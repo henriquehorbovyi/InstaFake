@@ -2,11 +2,8 @@ package io.henrikhorbovyi.instafake.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.auth.FirebaseAuth
 import io.henrikhorbovyi.instafake.databinding.ActivityFeedBinding
-import io.henrikhorbovyi.instafake.ui.SignInActivity
-import io.henrikhorbovyi.instafake.ui.custom.stories.Story
-import io.henrikhorbovyi.instafake.util.launchActivity
+import io.henrikhorbovyi.instafake.entity.Story
 
 class FeedActivity : AppCompatActivity() {
 
@@ -19,13 +16,13 @@ class FeedActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val stories = listOf(
-            Story("TESTE1"),
-            Story("TESTE2"),
-            Story("TESTE3"),
-            Story("TESTE4"),
-            Story("TESTE5"),
-            Story("TESTE6"),
-            Story("TESTE7")
+            Story("lukspedrosa"),
+            Story("testerr"),
+            Story("jorginho12"),
+            Story("maicocoo"),
+            Story("joceline"),
+            Story("johnfrav"),
+            Story("dhuauhsd")
         )
 
         binding.feedStoriesView.loadStories(stories)
