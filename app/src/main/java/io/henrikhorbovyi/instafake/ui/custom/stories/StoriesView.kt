@@ -25,8 +25,10 @@ class StoriesView @JvmOverloads constructor(
         storiesRecyclerView?.adapter = storiesAdapter
     }
 
-    fun loadStories(stories: List<Story>){
-        storiesAdapter.submitList(stories)
+    fun loadStories(stories: List<Story>) {
+        stories.toMutableList().apply {
+            add(0, Story(userName = "Seu story", "https://scontent-gru2-2.cdninstagram.com/v/t51.2885-19/s150x150/108313686_941178686294343_7279831360754606688_n.jpg?_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_ohc=eRLZ_-nlwi0AX9fSxFM&oh=d368987121b6e6daec6c5d81e261de20&oe=5F9F584A"))
+            storiesAdapter.submitList(this)
+        }
     }
-
 }

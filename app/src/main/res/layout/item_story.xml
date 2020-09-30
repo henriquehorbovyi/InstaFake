@@ -4,14 +4,14 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:paddingHorizontal="8dp"
+    android:padding="8dp"
     android:gravity="center"
     xmlns:tools="http://schemas.android.com/tools">
 
     <ImageView
         android:id="@+id/itemStoryUserPicture"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:src="@drawable/ic_person"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/itemStoryUserPicture"
-        android:textSize="15sp"
+        android:textSize="13sp"
+        android:textColor="@color/colorWhite"
         tools:text="jorgin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

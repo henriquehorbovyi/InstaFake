@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionFeed"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Explore"/>
+
+    <item
+        android:id="@+id/actionNewPost"
+        android:icon="@drawable/ic_new_post"
+        app:showAsAction="always"
+        android:title="New Post"/>
+
+    <item
+        android:id="@+id/actionActivity"
+        android:icon="@drawable/ic_like_outline"
+        app:showAsAction="always"
+        android:title="Activity"/>
+
+    <item
+        android:id="@+id/actionProfile"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="always"
+        android:title="Profile"/>
+
+</menu>

@@ -49,10 +49,14 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.2.1'
 
-    //Firebase
+    // Firebase
     implementation "com.google.firebase:firebase-core:17.5.0"
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
     implementation "com.google.firebase:firebase-auth:19.4.0"
+    implementation 'com.google.firebase:firebase-firestore-ktx:21.7.0'
+
+    // Coil
+    implementation("io.coil-kt:coil:1.0.0-rc3")
 }
 
 apply plugin: 'com.google.gms.google-services'

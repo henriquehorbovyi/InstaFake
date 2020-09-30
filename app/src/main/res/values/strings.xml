@@ -7,4 +7,6 @@
     <string name="enter_login">Entrar</string>
     <string name="facebook_login">Log in com Facebook</string>
     <string name="liked_by">Curtido por <b>%s</b> e <b>outras pessoas</b></string>
+    <string name="add_comment">Adicione um comentário...</string>
+    <string name="see_comments">Ver todos os comentários</string>
 </resources>

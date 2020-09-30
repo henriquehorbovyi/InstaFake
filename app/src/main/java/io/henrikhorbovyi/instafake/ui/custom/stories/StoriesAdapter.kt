@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
+import coil.transform.CircleCropTransformation
 import io.henrikhorbovyi.instafake.R
 import io.henrikhorbovyi.instafake.entity.Story
 
@@ -27,11 +29,12 @@ class StoriesAdapter : ListAdapter<Story, StoriesAdapter.StoriesViewHolder>(Stor
     ) : RecyclerView.ViewHolder(storyView){
 
         fun bind(story: Story){
-            val image = storyView.findViewById<ImageView>(R.id.itemStoryUserPicture)
+            val picture = storyView.findViewById<ImageView>(R.id.itemStoryUserPicture)
             val name = storyView.findViewById<TextView>(R.id.itemStoryUserName)
 
-            //TODO: LOAD Image With Coil
-
+            picture.load(story.picture){
+                transformations(CircleCropTransformation())
+            }
             name.text = story.userName
         }
     }
